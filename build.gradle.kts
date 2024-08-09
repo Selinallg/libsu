@@ -6,7 +6,8 @@ import java.net.URL
 plugins {
     id("java")
     id("maven-publish")
-    id("com.android.library") version "8.5.0" apply false
+    id("com.android.library") version "8.4.0" apply false
+//    id("com.android.library") version "8.5.0" apply false
 }
 
 val dlPackageList by tasks.registering {
